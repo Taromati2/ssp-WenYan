@@ -2,7 +2,7 @@
 //Because only characters that all Windows systems, or any other OSs, can recognize is ASCII.
 
 //Language name to display language menu.
-name,Chinese-Traditional
+name,¨|¤å
 
 //Locale
 //Japanese
@@ -17,7 +17,7 @@ locale,Chinese-Traditional
 //1041=Japanese 1042=Korean
 //This id is used for auto-recognition of system language. these ids are categorized by languages.
 //So, for example, If SSP cannot find Taiwan Chinese settings, it try to find any other Chinese setting.
-id,1028
+id,2052
 
 //Resource DLL. Must specify any other language except Japanese.
 dllname,resource.dll

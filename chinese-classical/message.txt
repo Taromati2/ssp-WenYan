@@ -3,7 +3,7 @@ charset,UTF-8
 error.appinit,在發送請求過程中發生了一個錯誤。\n為了得到更詳細的錯誤報告，請改變“使用除錯助手”設定。
 error.apprun,程式在執行過程中發生了一個內在的錯誤，所以中止運行。\n為了得到更詳細的錯誤報告，請改變“使用除錯助手”設定。
 error.cannotshowusagegraph,起始時間不充足，所使用的時間圖表不能顯示.請在一分鐘後重試。
-error.invalidipport,不能使用所設定的埠。請把它設定在1024與65535之間。
+error.invalidipport,埠不可用。既定于1024至65535。
 error.sstp.cannotlisten,不能連接，網絡連接設定因為埠問題發生故障。\n請檢查是否該埠與其他應用程序所設定相重疊，或是一個錯誤埠。
 error.nofile,相關檔或資料夾遺失。\n請重新安裝SSP或手動修正。
 //Ask / Info
@@ -20,7 +20,7 @@ info.vanish,反安裝功能禁止。\n請先切換設定。
 info.sender,請輸入SHIORI發送器文字。\n（Materia:embryo CROW：crowDefault:empty/SSP）
 info.install.overlap,目標資料夾已存在。\n你想安裝到其他目錄嗎？
 info.install.refresh,將删除所有舊目錄和更新。\n你想要安裝到其他目錄嗎？
-info.install.overwrite,正在嘗試安裝到現有目錄。\你想要覆蓋它嗎？
+info.install.overwrite,正在嘗試安裝到現有目錄。\n你想要覆蓋它嗎？
 info.install.overwrite.additional,選擇“是”覆蓋。\n選擇“不”自動更改資料夾名稱以避免覆蓋。
 info.install.refresh.a,正在嘗試乾淨（全新）安裝到現有目錄。\n現有數據將遺失。你想要覆蓋它嗎？
 info.install.invalidsupplement,目標檔案可能存在問題。\n無論如何都要安裝嗎？
@@ -32,18 +32,18 @@ info.recommended.b-to-g.change.recommend,這個對話方塊為以下人格專用
 info.recommended.b-to-g.delete.recommend,已删除所有使用對話方塊“%1”的人格。\n順便删除此對話方塊麼？
 info.toomanyselection,擇之過多矣。\n正行？
 info.errorlog,存在錯誤/警告日誌。按一下此處顯示錯誤日誌清單。
-info.overwrite,已經存在。\n是否覆寫？
+info.overwrite,既存。\n覆寫否？
 info.developer,和我契約，成為開發者吧！\n打開這個功能的話，需要做好人格大劇透等各種各樣的覺悟。\n仍然確定嗎？
 info.developer.exit,現在在“禁用\-標記退出”模式下。\n請使用開發人員面板進行設定以恢復正常。
 info.developer.update,現在在“更新只檢查”模式下。\n請使用開發人員面板進行設定以恢復正常。
 info.virtualdesktop,已在另一虛擬桌面啟動。
 info.gcsakura.found,已錄其中。
 info.gcsakura.deny,由於install.txt或robots.txt配寘，注册被拒絕。
-info.gcsakura.nohomeurl,找不到必需的“homeurl”項。無法注册不可更新的人格。
+info.gcsakura.nohomeurl,尋“homeurl”未果。無法注册不可更新的人格。
 info.gcsakura.nocraftman,尋craftman/craftmanw/craftmanurl未果。信不完者不可錄。
 info.gcsakura.disconnect,無法連接到GCS（Ghost Capter Sakura）服務器。
 //Resource
-resource.common.yesno,是,不
+resource.common.yesno,是,非
 resource.common.okcancel,善,吾悔
 resource.common.addmoddel,加入,修改,删除
 resource.common.other,其他
@@ -75,9 +75,9 @@ resource.setting.messengerlabel,用戶名,地址,埠,團體
 resource.setting.dirservlabel,服務器,登入,說明
 resource.setting.ipportlabel,埠,狀況
 resource.setting.bifflabel,帳戶,地址,自動檢查
-resource.update.latest,已經在使用最新版本。不需要更新。
-resource.update.exist,新版本已發佈。想要下載並安裝嗎？
-resource.update.error,無法檢查SSP版本。
+resource.update.latest,既用最新版。無須更新。
+resource.update.exist,新版已釋。載入否？
+resource.update.error,SSP版本不省。
 resource.schedule.type,事件,會議,約會,預約,限制時間,晚會,日期,工作,外出,電視節目,唱片,Cd,遊戲,錄影,書,其他
 //Script
 script.biff.check,檢查郵件…

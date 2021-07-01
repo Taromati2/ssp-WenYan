@@ -17,7 +17,7 @@ info.sstpport,請設定SSTP埠。（0-65535）
 info.serikowait,SERIKO等待數（請輸入等待時間的百分數）
 info.charset,請選擇將使用的人格語系。
 info.vanish,反安裝功能禁止。\n請先切換設定。
-info.sender,請輸入SHIORI發送器文字。\n（Materia:embryo CROW：crowDefault:empty/SSP）
+info.sender,請輸入SHIORI發送器文字。\n（Materia:embryo CROW:crow Default:empty/SSP）
 info.install.overlap,目標資料夾已存在。\n你想安裝到其他目錄嗎？
 info.install.refresh,將删除所有舊目錄和更新。\n你想要安裝到其他目錄嗎？
 info.install.overwrite,正在嘗試安裝到現有目錄。\n你想要覆蓋它嗎？
@@ -48,7 +48,7 @@ resource.common.okcancel,善,吾悔
 resource.common.addmoddel,加入,修改,删除
 resource.common.other,其他
 resource.common.menu,目錄
-resource.common.sameas,同樣的處理也適用於以下項目
+resource.common.sameas,同理亦宜者：
 resource.common.dontsayagain,不再提示
 resource.listdialoglabel,名字,作者,路徑,本體名,使魔名
 resource.listdialogfind,請輸入你想査詢的文字。
@@ -56,7 +56,7 @@ resource.scriptloglabel,路徑,類別,腳本
 resource.biff.allaccount,全部帳戶（&A）
 resource.browser.select,選擇網頁瀏覽器
 resource.mailer.select,選擇郵箱程式
-resource.editor.select,選擇編輯器
+resource.editor.select,擇编辑器
 resource.filer.select,選擇檔案管理器
 resource.svn.select,選擇版本控制程式
 resource.git.select,選擇Git程式
